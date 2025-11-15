@@ -1,26 +1,73 @@
+/* -------------------- Tailwind -------------------- */
 @import "tailwindcss";
 
+/* -------------------- Custom Fonts -------------------- */
+@import '../public/fonts/font.css';
+
+/* -------------------- CSS Variables -------------------- */
 :root {
+  /* Colors */
   --background: #ffffff;
   --foreground: #171717;
+  --background-white: #FFFFFF;
+  --background-pink: #FFDCDC;
+  --background-blue: #D5E7F2;
+  --background-purple: #B3B0D1;
+  --foreground-pink: #C4735A;
+  --foreground-blue: #0D4F78;
+  --foreground-purple: #645DAB;
+  --foreground-white: #FFFFFF;
+
+  /* Fonts */
+  --font-afacad: 'Afacad', sans-serif;
+  --font-alegreya: 'Alegreya', serif;
+  --font-rubik: 'Rubik', sans-serif;
 }
 
+/* -------------------- Theme Variables (Optional) -------------------- */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font: var(--font-afacad); /* default font variable */
 }
 
+/* -------------------- Dark Mode -------------------- */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --background-white: #FFFFFF;
+    --background-pink: #FFDCDC;
+    --background-blue: #D5E7F2;
+    --background-purple: #B3B0D1;
+    --foreground-pink: #C4735A;
+    --foreground-blue: #0D4F78;
+    --foreground-purple: #645DAB;
+    --foreground-white: #FFFFFF;
   }
 }
 
+/* -------------------- Global Body Styles -------------------- */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font);
 }
+
+/* -------------------- Custom Font Classes -------------------- */
+
+/* Afacad */
+.afacad-normal { font-family: var(--font-afacad); font-weight: 400; font-style: normal; }
+.afacad-italic { font-family: var(--font-afacad); font-weight: 400; font-style: italic; }
+
+/* Alegreya */
+.alegreya-normal { font-family: var(--font-alegreya); font-weight: 400; font-style: normal; }
+.alegreya-italic { font-family: var(--font-alegreya); font-weight: 400; font-style: italic; }
+
+/* Rubik */
+/* Light (300) */
+.rubik-light { font-family: var(--font-rubik); font-weight: 300; font-style: normal; }
+.rubik-light-italic { font-family: var(--font-rubik); font-weight: 300; font-style: italic; }
+/* Regular (400) */
+.rubik-regular { font-family: var(--font-rubik); font-weight: 400; font-style: normal; }
+.rubik-regular-italic { font-family: var(--font-rubik); font-weight: 400; font-style: italic; }

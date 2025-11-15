@@ -1,0 +1,265 @@
+{
+  "products": [
+    {
+      "name": "Organic Prana Daily Elixir Blend",
+      "available": ["India"],
+      "tagline": "Elevate Your Daily Routine With Our Farm Made Superfood Blend",
+      "images": ["/photos/maltpowder.jpg"],
+      "variants": [
+        { "size": "100g", "price": "600 Rs." },
+        { "size": "500g", "price": "100 Rs." }
+      ],
+      "description": "Enjoy a wholesome blend of ancient grains that promotes gut health and provides lasting energy. Our organic, non-GMO, vegan selection is sprouted, sun-dried, and lightly toasted.",
+      "ingredients": [
+        "Sprouted organic finger millet",
+        "Sprouted organic whole black gram",
+        "Sprouted organic whole green gram",
+        "Sprouted organic bajra",
+        "Organic barley",
+        "Organic cumin seeds",
+        "Organic fenugreek seeds"
+      ],
+      "preparation": "Boil 200 ml water. Blend 1 tbsp of Prana Elixir with water in a separate bowl until thoroughly mixed and lump-free. Add this mixture to the boiling water and reduce to low-medium heat. Add desired amount of sweetener. Optionally, add milk and flavorings like cardamom, blue pea flowers, or saffron.",
+      "guidelines": ["Best before 6 months", "Refrigerate for freshness"]
+    },
+
+    {
+      "name": "Organic Banana Walnut Bread",
+      "available": ["US"],
+      "tagline": "Loaf at first bite",
+      "images": ["/photos/bananabread.jpg"],
+      "variants": [
+        { "size": "2.5 lb", "price": "$18.00", "note": "classic" },
+        { "size": "2.5 lb", "price": "$20.00", "note": "vegan" }
+      ],
+      "description": "Enjoy the sweet, wholesome goodness of our fresh, organic, homemade banana bread.",
+      "ingredients": [
+        "Organic all purpose flour",
+        "Baking soda",
+        "Himalayan pink salt",
+        "Irish butter",
+        "Organic cane sugar",
+        "Organic pasteurized eggs",
+        "Organic bananas",
+        "Organic grassfed A2 milk",
+        "Vanilla extract",
+        "Walnuts",
+        "Zero preservatives"
+      ],
+      "guidelines": ["Consume within one week"]
+    },
+
+    {
+      "name": "Organic Simply Spelt Sandwich Bread",
+      "available": ["US"],
+      "tagline": "Made with Ancient Spelt Flour",
+      "images": ["/photos/SandwhichBread.JPG"],
+      "variants": [
+        { "size": "1.0 lb", "price": "$16.00" }
+      ],
+      "description": "Organic, diabetic-friendly and prebiotic sandwich bread made from ancient spelt.",
+      "ingredients": [
+        "Organic Spelt Flour",
+        "Organic All Purpose Flour",
+        "Homemade Yeast",
+        "Himalayan Pink Salt",
+        "Zero Preservatives"
+      ],
+      "speltInfo": "Spelt is an ancient grain with easier-to-digest gluten, higher fiber, and a nutty flavor.",
+      "guidelines": ["Consume within 30 days", "Refrigerate after opening"]
+    },
+
+    {
+      "name": "Organic Strawberry Jam",
+      "available": ["US"],
+      "tagline": "Organic and Artisanal",
+      "images": ["/photos/strawberryJam.JPEG"],
+      "variants": [
+        { "size": "16 oz", "price": "$9.75" }
+      ],
+      "description": "A sweet, homemade organic strawberry jam for toast, desserts, or by the spoonful.",
+      "ingredients": [
+        "Organic Strawberries",
+        "Organic Cane Sugar",
+        "Corn Starch",
+        "Organic Vinegar"
+      ],
+      "guidelines": ["Consume within 30 days", "Refrigerate after opening"]
+    },
+
+    {
+      "name": "Organic Peach Jam",
+      "available": ["US"],
+      "tagline": "Organic and Artisanal",
+      "images": ["/photos/PeachJam.JPG"],
+      "variants": [
+        { "size": "16 oz", "price": "$9.75" }
+      ],
+      "description": "Homemade organic peach jam with pure sweet flavor.",
+      "ingredients": ["Organic Peaches", "Organic Cane Sugar", "Organic Vinegar"],
+      "guidelines": ["Consume within 30 days", "Refrigerate after opening"]
+    },
+
+    {
+      "name": "Cranberry Andhra Pachadi",
+      "available": ["US"],
+      "tagline": "flavors that speak తెలుగు with a cranberry accent",
+      "images": ["photos/CranberryPachadi.JPG"],
+      "variants": [
+        { "size": "16 oz", "price": "$11.75" }
+      ],
+      "description": "A tangy, vitamin-packed chutney combining cranberries with traditional Andhra spices.",
+      "ingredients": [
+        "Cranberries",
+        "Sunflower Oil",
+        "Jeera",
+        "Mustard Seeds",
+        "Red Chillies",
+        "Curry Leaves",
+        "Turmeric",
+        "Garlic",
+        "Hing Powder",
+        "Salt",
+        "Methi Seeds",
+        "Karam Podi"
+      ],
+      "guidelines": ["Lasts 3 months when refrigerated"]
+    },
+
+    {
+      "name": "Buddha's Hand Andhra Pachadi",
+      "available": ["US"],
+      "tagline": "Where తెలుగు Flavors Meet a Citrusy Zen Handshake",
+      "images": ["/photos/BudhhaHandJam.JPG"],
+      "variants": [
+        { "size": "16 oz", "price": "$12.75" }
+      ],
+      "description": "A zesty chutney made from aromatic Buddha’s Hand citrus and Andhra spices.",
+      "ingredients": [
+        "Buddha’s Hand",
+        "Ginger",
+        "Onion",
+        "Turmeric",
+        "Sunflower Oil",
+        "Coriander Seeds",
+        "Red Chilies",
+        "Cumin Seeds",
+        "Salt",
+        "Mustard Seeds",
+        "Curry Leaves",
+        "Jaggery",
+        "Tamarind",
+        "Zero Preservatives"
+      ],
+      "guidelines": ["Lasts 3 months when refrigerated"]
+    },
+
+    {
+      "name": "Organic Henna Powder",
+      "available": ["India"],
+      "images": [],
+      "variants": [
+        { "size": "100g", "price": "600 Rs." },
+        { "size": "500g", "price": "100 Rs." }
+      ],
+      "description": "100% pure, natural henna powder made from sun-dried leaves."
+    },
+
+    {
+      "name": "Organic Hibiscus Powder",
+      "available": ["India"],
+      "images": [],
+      "variants": [
+        { "size": "100g", "price": "600 Rs." },
+        { "size": "500g", "price": "100 Rs." }
+      ],
+      "description": "Pure organic hibiscus powder rich in antioxidants."
+    },
+
+    {
+      "name": "Organic Moringa Powder",
+      "available": ["India"],
+      "images": [],
+      "variants": [
+        { "size": "100g", "price": "600 Rs." },
+        { "size": "500g", "price": "100 Rs." }
+      ],
+      "description": "Farm-grown organic moringa powder rich in vitamins and minerals."
+    },
+
+    {
+      "name": "Organic Balloon Vine Powder",
+      "available": ["India"],
+      "images": [],
+      "variants": [
+        { "size": "100g", "price": "600 Rs." },
+        { "size": "500g", "price": "100 Rs." }
+      ],
+      "description": "Organic, sun-dried balloon vine powder traditionally used for joint and skin wellness."
+    },
+
+    {
+      "name": "Organic Shankhpushpi Dried Flowers",
+      "available": ["India"],
+      "images": [],
+      "variants": [
+        { "size": "100g", "price": "600 Rs." },
+        { "size": "500g", "price": "100 Rs." }
+      ],
+      "description": "Handpicked, sundried blue pea flowers known for calming benefits."
+    },
+
+    {
+      "name": "Organic Sundried Lemongrass",
+      "available": ["India"],
+      "images": [],
+      "variants": [
+        { "size": "100g", "price": "600 Rs." },
+        { "size": "500g", "price": "100 Rs." }
+      ],
+      "description": "Sun-dried, aromatic lemongrass perfect for teas and cooking."
+    },
+
+    {
+      "name": "Organic Sundried Tulsi",
+      "available": ["India"],
+      "images": [],
+      "variants": [
+        { "size": "100g", "price": "600 Rs." },
+        { "size": "500g", "price": "100 Rs." }
+      ],
+      "description": "Organic, sun-dried tulsi packed with immune-boosting benefits."
+    },
+
+    {
+      "name": "Organic Sundried Roselle",
+      "available": ["India"],
+      "images": [],
+      "variants": [
+        { "size": "100g", "price": "600 Rs." },
+        { "size": "500g", "price": "100 Rs." }
+      ],
+      "description": "Sun-dried roselle rich in antioxidants with a tangy floral flavor."
+    },
+
+    {
+      "name": "Organic Red Banana Walnut Bread",
+      "available": ["Full Moon"],
+      "images": [],
+      "variants": [
+        { "size": "1 slice", "price": "600 Rs." }
+      ],
+      "description": "Egg-free bread made with red bananas, walnuts, and nutritious Kapli wheat."
+    },
+
+    {
+      "name": "Organic Blue Sabja Cool Drink",
+      "available": ["Full Moon"],
+      "images": [],
+      "variants": [
+        { "size": "8 oz glass", "price": "300 Rs." }
+      ],
+      "description": "Refreshing drink made from blue pea flowers and sabja seeds."
+    }
+  ]
+}
