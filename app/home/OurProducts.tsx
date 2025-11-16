@@ -1,6 +1,6 @@
-import ProductCarousel from './ProductCarousel';
-import Button from './Button';
-import productsData from '../data/products.json';
+import ProductCarousel from '../../components/ProductCarousel';
+import Button from '../../components/Button';
+import productsData from '../../data/products.json';
 
 interface OurProductsProps {
   backgroundColor?: string;

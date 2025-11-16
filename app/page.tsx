@@ -3,10 +3,10 @@ import ContactUs from "../components/ContactUs";
 import React from "react";
 import Button from "../components/Button";
 import NavBar from "../components/NavBar";
-import HeroSection from "../components/HeroSection";
-import OurPurpose from "../components/OurPurpose";
-import OurProducts from "../components/OurProducts";
-import HaveQuestions from "../components/HaveQuestions";
+import HeroSection from "./home/HeroSection";
+import OurPurpose from "./home/OurPurpose";
+import OurProducts from "./home/OurProducts";
+import HaveQuestions from "./home/HaveQuestions";
 
 export default function Home() {
   return (
