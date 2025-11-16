@@ -9,7 +9,7 @@
         { "size": "100g", "price": "600 Rs." },
         { "size": "500g", "price": "100 Rs." }
       ],
-      "description": "Enjoy a wholesome blend of ancient grains that promotes gut health and provides lasting energy. Our organic, non-GMO, vegan selection is sprouted, sun-dried, and lightly toasted.",
+      "description": "Enjoy a wholesome blend of organic, non-gmo, ancient grains that promotes gut health and provides lasting energy.",
       "ingredients": [
         "Sprouted organic finger millet",
         "Sprouted organic whole black gram",
@@ -70,7 +70,7 @@
     },
 
     {
-      "name": "Organic Strawberry Jam",
+      "name": "Organic and Artisanal Strawberry Jam",
       "available": ["US"],
       "tagline": "Organic and Artisanal",
       "images": ["/photos/strawberryJam.JPEG"],
@@ -88,7 +88,7 @@
     },
 
     {
-      "name": "Organic Peach Jam",
+      "name": "Organic and Artisanal Peach Jam",
       "available": ["US"],
       "tagline": "Organic and Artisanal",
       "images": ["/photos/PeachJam.JPG"],

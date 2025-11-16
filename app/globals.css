@@ -62,6 +62,7 @@ body {
 
 /* Alegreya */
 .alegreya-normal { font-family: var(--font-alegreya); font-weight: 400; font-style: normal; }
+.alegreya-regular { font-family: var(--font-alegreya); font-weight: 400; font-style: normal; }
 .alegreya-italic { font-family: var(--font-alegreya); font-weight: 400; font-style: italic; }
 
 /* Rubik */
