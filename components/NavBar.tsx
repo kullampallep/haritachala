@@ -10,7 +10,7 @@ export default function NavBar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { name: 'Home', href: '/home' },
+    { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Our Products', href: '/menu' },
     { name: 'Inside Scoop', href: '/inside_scoop' },
@@ -24,7 +24,7 @@ export default function NavBar() {
   return (
     <>
       {/* Main Navigation Bar */}
-      <nav className="w-full bg-transparent sticky top-0 z-50">
+      <nav className="w-full sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16 md:h-20">
             {/* Logo */}
