@@ -1,0 +1,24 @@
+export default function BehindTheScenes2() {
+  return (
+    <section className="bg-[var(--background-purple)]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-white rounded-lg shadow-md p-6 md:p-8 text-center">
+            <div>
+              <h2 className="afacad-regular text-3xl md:text-4xl text-[var(--background-purple)] mb-4 uppercase">
+                The Design Team
+              </h2>
+              <div className="w-32 h-[2px] bg-[var(--background-purple)] mx-auto mb-6"></div>
+            </div>
+            
+            <div className="afacad-regular text-base md:text-lg text-[var(--background-purple)] leading-relaxed">
+              <p>
+                Our design team is a group of dedicated volunteers who find joy in creativity. From product packaging to marketing flyers, design is their way of letting ideas flow and adding beauty to our offerings. The team includes Sruti Akka, Sirisha Auntie, Pravallika Kullampalle, Namita Bhavanam, and Sweety Chekuri—each bringing their unique style and heart to every detail.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}

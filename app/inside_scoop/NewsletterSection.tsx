@@ -1,0 +1,60 @@
+'use client';
+import Image from 'next/image';
+import Button from '@/components/Button';
+
+export default function NewsletterSection() {
+  return (
+    <section className="bg-[var(--background-blue)] py-16 md:py-24">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="grid md:grid-cols-2 gap-8 lg:gap-16 items-center">
+          {/* Image - LEFT side */}
+          <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px]">
+            <Image
+              src="/images/pages/inside_scoop/inside_sccop.newsletter.png"
+              alt="Stay Connected"
+              fill
+              className="object-cover rounded-lg"
+            />
+          </div>
+
+          {/* Text Content - RIGHT side */}
+          <div className="space-y-6">
+            <div>
+              <h2 className="afacad-regular text-3xl md:text-4xl text-[var(--foreground-blue)] mb-4 uppercase">
+                {/* TODO: Extract exact heading from Figma */}
+                Stay in the Loop
+              </h2>
+              <div className="w-full h-[2px] bg-[var(--foreground-blue)] mb-6"></div>
+            </div>
+            
+            <div className="space-y-4 afacad-regular text-base md:text-lg text-[var(--foreground-blue)] leading-relaxed">
+              <p>
+                {/* TODO: Extract exact body text from Figma */}
+                Subscribe to our newsletter and be the first to know about new products, 
+                special offerings, and exclusive behind-the-scenes content from Haritachala.
+              </p>
+              
+              <p>
+                Get monthly updates about our farm activities, seasonal harvests, and the 
+                stories of the people who make our products possible.
+              </p>
+              
+              <p>
+                Join our community and stay connected to the journey from farm to table.
+              </p>
+            </div>
+
+            {/* View Here Button */}
+            <div className="pt-4">
+              <Button
+                buttonOutlineColor="var(--foreground-blue)"
+                buttonText="VIEW HERE"
+                href="/menu"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
