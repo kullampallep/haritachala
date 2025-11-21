@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function AboutHeroSection() {
   return (
-    <section className="relative w-full h-screen overflow-hidden">
+    <section className="relative w-full hidden md:block md:h-[70vh] lg:h-screen overflow-hidden">
       {/* Desktop/Large Screen Hero Video */}
       <div className="hidden lg:block absolute inset-0">
         <video
