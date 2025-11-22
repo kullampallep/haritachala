@@ -4,7 +4,7 @@ import Button from '@/components/Button';
 export default function BehindTheScenes3() {
   return (
     <section className="bg-[var(--background-pink)]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 lg:py-20">
         <div className="bg-white rounded-lg shadow-md p-6 md:p-8">
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Image - LEFT side */}
